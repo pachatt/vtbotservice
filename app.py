@@ -33,6 +33,10 @@ def Sweden():
 # ‘/’ URL is bound with hello_world() function.
 def Germany():
     return 'Hello Germany'
+
+@app.route('/singapore')
+def Singapore():
+    return 'Hello Singapore'
     
 # main driver function
 if __name__ == '__main__':
